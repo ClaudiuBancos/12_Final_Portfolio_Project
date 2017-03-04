@@ -1,0 +1,180 @@
+* {
+	box-sizing: border-box;
+	font-family: "Coda";
+}
+
+body {
+	background-image: url("../img/grungy_stain_background.jpg");
+	background-repeat: repeat;
+}
+
+header {
+	text-align: center;
+	font-size: 22px;
+}
+
+.name {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.contact {
+	text-align: center;
+}
+
+.facebook,
+.twitter {
+	text-decoration: none;
+}
+
+.linkedin_svg {
+	width: 39px;
+	height: 39px;
+	margin-bottom: -1px;
+}
+
+
+
+
+.skill_selector {
+	display: block;
+	margin: 20px auto 0;
+}
+
+
+
+
+.project {
+	width: 70%;
+	margin: 30px auto;
+}
+
+.P0 {
+	margin-top: 20px;
+}
+
+.title {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.project_image {
+	max-width: 100%;
+	border: solid 1px black;
+}
+
+.description {
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+.long,
+.less {
+	display: none;
+}
+
+.more {
+	margin-top: 0;
+}
+
+.less {
+	margin-top: 5px;
+}
+
+
+/*======
+SKILLS
+=======*/
+
+.skills_div {
+	display: none;
+	flex-wrap: wrap;
+}
+
+.skill {
+	display: inline-block;
+	margin: 2px 5px;
+	font-weight: bold;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.html {
+	background-color: orange;
+}
+
+.css {
+	background-color: blue;
+}
+
+.javascript {
+	background-color: green;
+}
+
+.jquery {
+	background-color: gold;
+}
+
+.sass {
+	background-color: purple;
+}
+
+.svg {
+	background-color: brown;
+}
+
+.video {
+	background-color: skyblue;
+}
+
+.accessibility {
+	background-color: hotpink;
+}
+
+.charts_js {
+	background-color: firebrick;
+}
+
+.ajax {
+	background-color: brown;
+}
+
+.node_js {
+	background-color: gray;
+}
+
+.gulp_js {
+	background-color: darkblue;
+}
+
+
+@media(min-width: 768px) {
+	.gallery {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.project {
+		width: 40%;
+		margin: 30px auto;
+	}
+
+	.P0, .P1 {
+		margin-top: 20px;
+	}
+}
+
+@media(min-width: 768px) {
+	.project {
+		width: 26%;
+	}
+
+	.P0, .P1, .P2 {
+		margin-top: 20px;
+	}
+
+	header {
+		font-size: 24px;
+	}
+}
